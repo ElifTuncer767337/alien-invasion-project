@@ -2,33 +2,24 @@
 
 alien-invasion-project/ 
 │ 
-├── alien_invasion.py      # Ana oyun döngüsü ve kontrol merkezi 
-├── ship.py                
-# Oyuncu gemisi özellikleri 
-├── alien.py               
-# Düşman türleri ve hareket mantığı 
-├── bullet.py              
-# Mermi fiziği ve yönetimi 
-├── settings.py            
-# Oyunun tüm teknik ayarları 
-├── game_stats.py          
-# Skor ve enerji verileri 
-├── scoreboard.py          
-# Arayüz ve görsel bilgilendirme 
-├── button.py              
-# Giriş ekranı butonu 
-├── high_score.txt         
+├── alien_invasion.py    # Ana oyun döngüsü ve kontrol merkezi 
+
+├── ship.py      # Oyuncu gemisi özellikleri 
+├── alien.py     # Düşman türleri ve hareket mantığı 
+├── bullet.py    # Mermi fiziği ve yönetimi 
+├── settings.py  # Oyunun tüm teknik ayarları 
+├── game_stats.py  # Skor ve enerji verileri 
+├── scoreboard.py  # Arayüz ve görsel bilgilendirme 
+├── button.py      # Giriş ekranı butonu 
+├── high_score.txt # Kaydedilen en yüksek skor verisi        
 │ 
-├── images/                
-# Kaydedilen en yüksek skor verisi 
-# Görsel varlıklar klasörü 
+├── images/   # Görsel varlıklar klasörü 
 │   ├── ship-3.png 
 │   ├── alien-image.png 
 │   ├── yellow-alien-image.png 
 │   └── purple-alien-image.png 
 │ 
-└── sounds/                
-# Ses efektleri ve müzik klasörü 
+└── sounds/  # Ses efektleri ve müzik klasörü 
 ├── laser_sound.wav 
 └── game_music.mp3 
 
